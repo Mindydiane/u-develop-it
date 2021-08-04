@@ -80,7 +80,7 @@ app.delete("/api/candidate/:id", (req, res) => {
   });
 });
 
-// Create a candidate
+// Post/Create a candidate
 app.post("/api/candidate", ({ body }, res) => {
   const errors = inputCheck(
     body,
